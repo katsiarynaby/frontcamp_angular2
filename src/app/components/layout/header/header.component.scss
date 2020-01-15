@@ -1,0 +1,23 @@
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:lightblue;
+}
+
+.menu {
+  margin: 0;
+  display: flex;
+
+  .element {
+    width: 150px;
+    list-style: none;
+
+    &__link {
+      display: block;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

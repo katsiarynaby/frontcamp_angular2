@@ -1,0 +1,48 @@
+.main {
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .contact {
+    display: flex;
+    height: 200px;
+
+    .photo {
+      width: 200px;
+      background-color: black;
+      position: relative;
+      margin: 5px;
+
+     img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      line-height: 1.2em;
+      margin: 20px;
+
+      &__name {
+        font-size: 30px;
+        color: rgb(43, 155, 67);
+        margin-bottom: 5px;
+      }
+
+      &__work {
+        color: rgb(175, 226, 34);
+      }
+    }
+}
+}
+
+
+
