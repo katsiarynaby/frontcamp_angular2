@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { MainComponent } from './components/main/main.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ContactComponent } from './components/contact';
+import { MainComponent } from './components/main';
+import { NotFoundComponent } from './components/not-found';
 
 const routes: Routes = [
   {

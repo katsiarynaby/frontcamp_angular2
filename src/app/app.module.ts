@@ -4,9 +4,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { ContactComponent } from './components/contact/contact.component';
-import { MainComponent } from './components/main/main.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ContactComponent } from './components/contact';
+import { MainComponent } from './components/main';
+import { NotFoundComponent } from './components/not-found';
 import {
   HeaderComponent,
   FooterComponent,
